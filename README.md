@@ -6,7 +6,7 @@ A modern, professional admin dashboard built with Next.js 14, TypeScript, Tailwi
 
 ✨ **Key Features:**
 - 📊 **Modern Dashboard** with real-time statistics and charts
-- 🌙 **Dark/Light Mode** with smooth transitions
+- 🔐 **Authentication System** with login/logout
 - 🌐 **Multi-language Support** (English & Indonesian)
 - 📈 **Data Visualization** with Recharts
 - 🎨 **Beautiful UI** with Tailwind CSS and Framer Motion animations
@@ -74,7 +74,7 @@ dashboardv1/
 │   │   ├── settings/         # Settings page
 │   │   └── profile/          # Profile page
 │   ├── providers/            # Context providers
-│   │   ├── theme-provider.tsx
+│   │   ├── auth-provider.tsx
 │   │   └── language-provider.tsx
 │   ├── layout.tsx            # Root layout
 │   ├── page.tsx              # Home (redirects to dashboard)
@@ -91,7 +91,6 @@ dashboardv1/
 │   │   ├── navbar.tsx
 │   │   └── dashboard-layout.tsx
 │   ├── shared/               # Shared components
-│   │   ├── theme-toggle.tsx
 │   │   └── language-switcher.tsx
 │   └── ui/                   # UI primitives
 │       ├── button.tsx
@@ -143,21 +142,17 @@ dashboardv1/
 
 ### Settings Page
 - General settings (Store info, preferences)
-- Language and theme preferences
+- Language preferences
 - Organized in tabs
 
 ### Profile Page
 - User profile management
 - Password change functionality
 
-## Dark/Light Mode
-
-The dashboard supports three theme modes:
-- **Light Mode**
-- **Dark Mode**
-- **System** (follows OS preference)
-
-Theme preference is saved in localStorage and persists across sessions.
+### Login Page
+- Secure authentication system
+- Demo credentials: `userdemo` / `passworddemo`
+- Beautiful UI with animations
 
 ## Multi-Language Support
 
@@ -190,6 +185,50 @@ Mock data is located in `lib/data/mockData.ts`. Replace with your actual API end
 npm run build
 npm start
 ```
+
+## Deployment to Vercel
+
+### Prerequisites
+- GitHub account with repository pushed
+- Vercel account (sign up at [vercel.com](https://vercel.com))
+
+### Deployment Steps
+
+1. **Via Vercel Dashboard (Recommended)**
+   - Go to [https://vercel.com](https://vercel.com) and sign in
+   - Click "Add New Project" or "Import Project"
+   - Select your GitHub repository `kkdev20/dashboard-admin`
+   - Vercel will auto-detect Next.js 14 settings:
+     - Framework: Next.js
+     - Build Command: `npm run build`
+     - Output Directory: `.next`
+   - Click "Deploy"
+   - Wait for build to complete (~2-5 minutes)
+   - Your app will be live at `https://your-project.vercel.app`
+
+2. **Via Vercel CLI**
+   ```bash
+   npm install -g vercel
+   vercel login
+   vercel
+   ```
+   Follow the prompts in terminal.
+
+### Environment Variables
+
+If you need environment variables, add them in:
+**Vercel Dashboard → Project Settings → Environment Variables**
+
+### Automatic Deployments
+
+After initial setup, every push to `main` branch will automatically trigger a new deployment on Vercel.
+
+### Custom Domain
+
+To add a custom domain:
+1. Go to **Project Settings → Domains**
+2. Add your domain
+3. Follow DNS configuration instructions
 
 ## Scripts
 

@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { useLanguage } from "@/app/providers/language-provider";
-import { useTheme } from "@/app/providers/theme-provider";
 import {
   Card,
   CardContent,
@@ -33,7 +32,6 @@ function LabelComponent({
 
 export default function SettingsPage() {
   const { t, language, setLanguage } = useLanguage();
-  const { theme, setTheme } = useTheme();
   const [activeTab, setActiveTab] = useState("general");
 
   const tabs = [
@@ -116,18 +114,6 @@ export default function SettingsPage() {
               >
                 <option value="en">English</option>
                 <option value="id">Indonesia</option>
-              </select>
-            </div>
-            <div className="space-y-2">
-              <LabelComponent>{t("settings", "general.themePreference")}</LabelComponent>
-              <select
-                value={theme}
-                onChange={(e) => setTheme(e.target.value as "light" | "dark" | "system")}
-                className="h-10 w-full rounded-md border border-gray-300 bg-white px-3 text-sm"
-              >
-                <option value="light">{t("settings", "general.themes.light")}</option>
-                <option value="dark">{t("settings", "general.themes.dark")}</option>
-                <option value="system">{t("settings", "general.themes.system")}</option>
               </select>
             </div>
             <Button>{t("common", "save")}</Button>

@@ -1,0 +1,44 @@
+{
+  "title": "Products Management",
+  "addNew": "Add New Product",
+  "searchPlaceholder": "Search products...",
+  "filters": {
+    "category": "Category",
+    "status": "Status",
+    "sortBy": "Sort by"
+  },
+  "categories": {
+    "all": "All",
+    "electronics": "Electronics",
+    "fashion": "Fashion",
+    "home": "Home & Garden",
+    "sports": "Sports",
+    "books": "Books"
+  },
+  "statuses": {
+    "all": "All",
+    "active": "Active",
+    "outOfStock": "Out of Stock",
+    "draft": "Draft"
+  },
+  "sortOptions": {
+    "name": "Name",
+    "price": "Price",
+    "stock": "Stock",
+    "dateAdded": "Date Added"
+  },
+  "table": {
+    "image": "Image",
+    "productName": "Product Name",
+    "sku": "SKU",
+    "category": "Category",
+    "price": "Price",
+    "stock": "Stock",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "duplicate": "Duplicate",
+  "stock": "Stock",
+  "outOfStock": "Out of Stock"
+}
+

@@ -1,0 +1,26 @@
+{
+  "title": "Settings",
+  "tabs": {
+    "general": "General",
+    "notifications": "Notifications",
+    "security": "Security",
+    "billing": "Billing",
+    "api": "API"
+  },
+  "general": {
+    "storeName": "Store Name",
+    "storeDescription": "Store Description",
+    "contactEmail": "Contact Email",
+    "phoneNumber": "Phone Number",
+    "address": "Address",
+    "currency": "Currency",
+    "languagePreference": "Language Preference",
+    "themePreference": "Theme Preference",
+    "themes": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
+  }
+}
+

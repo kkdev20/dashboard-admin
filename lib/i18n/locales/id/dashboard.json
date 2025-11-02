@@ -1,0 +1,22 @@
+{
+  "title": "Dasbor",
+  "stats": {
+    "revenue": "Total Pendapatan",
+    "orders": "Pesanan",
+    "customers": "Pelanggan",
+    "products": "Produk Aktif"
+  },
+  "changeFromLastMonth": "dari bulan lalu",
+  "changeSinceLastHour": "sejak sejam lalu",
+  "charts": {
+    "revenue": "Ikhtisar Pendapatan",
+    "revenueSubtitle": "Pendapatan bulanan untuk 2024",
+    "sales": "Penjualan per Kategori",
+    "revenueLegend": "Pendapatan"
+  },
+  "recentOrders": "Pesanan Terbaru",
+  "topProducts": "Produk Terlaris",
+  "salesCount": "Penjualan",
+  "viewDetails": "Lihat Detail"
+}
+

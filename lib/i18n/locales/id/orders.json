@@ -1,0 +1,37 @@
+{
+  "title": "Manajemen Pesanan",
+  "tabs": {
+    "all": "Semua Pesanan",
+    "pending": "Tertunda",
+    "processing": "Diproses",
+    "completed": "Selesai",
+    "cancelled": "Dibatalkan"
+  },
+  "filters": {
+    "dateRange": "Rentang Tanggal",
+    "customer": "Pelanggan",
+    "status": "Status",
+    "amountRange": "Rentang Jumlah"
+  },
+  "table": {
+    "orderId": "ID Pesanan",
+    "customer": "Pelanggan",
+    "products": "Produk",
+    "totalAmount": "Total Jumlah",
+    "paymentStatus": "Status Pembayaran",
+    "orderStatus": "Status Pesanan",
+    "date": "Tanggal",
+    "actions": "Aksi"
+  },
+  "actions": {
+    "viewDetails": "Lihat Detail",
+    "updateStatus": "Perbarui Status",
+    "invoice": "Faktur"
+  },
+  "statuses": {
+    "paid": "Dibayar",
+    "unpaid": "Belum Dibayar",
+    "refunded": "Dikembalikan"
+  }
+}
+

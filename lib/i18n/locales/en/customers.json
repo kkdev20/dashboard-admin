@@ -1,0 +1,25 @@
+{
+  "title": "Customers",
+  "stats": {
+    "total": "Total Customers",
+    "activeThisMonth": "Active This Month",
+    "newSignups": "New Sign-ups",
+    "retentionRate": "Customer Retention Rate"
+  },
+  "table": {
+    "avatar": "Avatar",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "totalOrders": "Total Orders",
+    "totalSpent": "Total Spent",
+    "joinDate": "Join Date",
+    "actions": "Actions"
+  },
+  "actions": {
+    "viewProfile": "View Profile",
+    "sendEmail": "Send Email",
+    "block": "Block"
+  }
+}
+

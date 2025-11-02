@@ -1,0 +1,25 @@
+{
+  "title": "Pelanggan",
+  "stats": {
+    "total": "Total Pelanggan",
+    "activeThisMonth": "Aktif Bulan Ini",
+    "newSignups": "Pendaftaran Baru",
+    "retentionRate": "Tingkat Retensi Pelanggan"
+  },
+  "table": {
+    "avatar": "Avatar",
+    "name": "Nama",
+    "email": "Email",
+    "phone": "Telepon",
+    "totalOrders": "Total Pesanan",
+    "totalSpent": "Total Pengeluaran",
+    "joinDate": "Tanggal Bergabung",
+    "actions": "Aksi"
+  },
+  "actions": {
+    "viewProfile": "Lihat Profil",
+    "sendEmail": "Kirim Email",
+    "block": "Blokir"
+  }
+}
+

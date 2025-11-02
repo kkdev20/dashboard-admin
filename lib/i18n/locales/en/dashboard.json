@@ -1,0 +1,22 @@
+{
+  "title": "Dashboard",
+  "stats": {
+    "revenue": "Total Revenue",
+    "orders": "Orders",
+    "customers": "Customers",
+    "products": "Active Products"
+  },
+  "changeFromLastMonth": "from last month",
+  "changeSinceLastHour": "since last hour",
+  "charts": {
+    "revenue": "Revenue Overview",
+    "revenueSubtitle": "Monthly revenue for 2024",
+    "sales": "Sales by Category",
+    "revenueLegend": "Revenue"
+  },
+  "recentOrders": "Recent Orders",
+  "topProducts": "Top Selling Products",
+  "salesCount": "Sales",
+  "viewDetails": "View Details"
+}
+

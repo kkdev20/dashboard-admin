@@ -1,0 +1,26 @@
+{
+  "title": "Pengaturan",
+  "tabs": {
+    "general": "Umum",
+    "notifications": "Notifikasi",
+    "security": "Keamanan",
+    "billing": "Penagihan",
+    "api": "API"
+  },
+  "general": {
+    "storeName": "Nama Toko",
+    "storeDescription": "Deskripsi Toko",
+    "contactEmail": "Email Kontak",
+    "phoneNumber": "Nomor Telepon",
+    "address": "Alamat",
+    "currency": "Mata Uang",
+    "languagePreference": "Preferensi Bahasa",
+    "themePreference": "Preferensi Tema",
+    "themes": {
+      "light": "Terang",
+      "dark": "Gelap",
+      "system": "Sistem"
+    }
+  }
+}
+

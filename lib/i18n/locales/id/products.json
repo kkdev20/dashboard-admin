@@ -1,0 +1,44 @@
+{
+  "title": "Manajemen Produk",
+  "addNew": "Tambah Produk Baru",
+  "searchPlaceholder": "Cari produk...",
+  "filters": {
+    "category": "Kategori",
+    "status": "Status",
+    "sortBy": "Urutkan berdasarkan"
+  },
+  "categories": {
+    "all": "Semua",
+    "electronics": "Elektronik",
+    "fashion": "Fashion",
+    "home": "Rumah & Taman",
+    "sports": "Olahraga",
+    "books": "Buku"
+  },
+  "statuses": {
+    "all": "Semua",
+    "active": "Aktif",
+    "outOfStock": "Stok Habis",
+    "draft": "Draft"
+  },
+  "sortOptions": {
+    "name": "Nama",
+    "price": "Harga",
+    "stock": "Stok",
+    "dateAdded": "Tanggal Ditambahkan"
+  },
+  "table": {
+    "image": "Gambar",
+    "productName": "Nama Produk",
+    "sku": "SKU",
+    "category": "Kategori",
+    "price": "Harga",
+    "stock": "Stok",
+    "status": "Status",
+    "actions": "Aksi"
+  },
+  "duplicate": "Duplikat",
+  "stock": "Stok",
+  "outOfStock": "Stok Habis"
+}
+

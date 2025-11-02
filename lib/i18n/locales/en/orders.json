@@ -1,0 +1,37 @@
+{
+  "title": "Orders Management",
+  "tabs": {
+    "all": "All Orders",
+    "pending": "Pending",
+    "processing": "Processing",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "filters": {
+    "dateRange": "Date Range",
+    "customer": "Customer",
+    "status": "Status",
+    "amountRange": "Amount Range"
+  },
+  "table": {
+    "orderId": "Order ID",
+    "customer": "Customer",
+    "products": "Products",
+    "totalAmount": "Total Amount",
+    "paymentStatus": "Payment Status",
+    "orderStatus": "Order Status",
+    "date": "Date",
+    "actions": "Actions"
+  },
+  "actions": {
+    "viewDetails": "View Details",
+    "updateStatus": "Update Status",
+    "invoice": "Invoice"
+  },
+  "statuses": {
+    "paid": "Paid",
+    "unpaid": "Unpaid",
+    "refunded": "Refunded"
+  }
+}
+

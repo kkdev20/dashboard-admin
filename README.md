@@ -1,4 +1,4 @@
-# AdminHub - Professional Admin Dashboard
+# Admin - Professional Admin Dashboard
 
 A modern, professional admin dashboard built with Next.js 14, TypeScript, Tailwind CSS, and featuring dark/light mode, multi-language support (English & Indonesian), and comprehensive data visualization.
 
@@ -197,7 +197,7 @@ npm start
 1. **Via Vercel Dashboard (Recommended)**
    - Go to [https://vercel.com](https://vercel.com) and sign in
    - Click "Add New Project" or "Import Project"
-   - Select your GitHub repository `kkdev20/dashboard-admin`
+   - Select your GitHub repository `kkdev20/admin`
    - Vercel will auto-detect Next.js 14 settings:
      - Framework: Next.js
      - Build Command: `npm run build`

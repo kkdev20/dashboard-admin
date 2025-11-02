@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AdminHub - Admin Dashboard",
+  title: "Admin - Admin Dashboard",
   description: "Professional admin dashboard built with Next.js 14",
 };
 

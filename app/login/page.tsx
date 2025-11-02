@@ -74,7 +74,7 @@ export default function LoginPage() {
             </div>
             <div className="text-center space-y-2">
               <CardTitle className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                AdminHub
+                Admin
               </CardTitle>
               <CardDescription className="text-base">
                 Masuk ke dashboard admin Anda
@@ -194,7 +194,7 @@ export default function LoginPage() {
 
         <div className="mt-6 text-center">
           <p className="text-sm text-gray-500">
-            © 2024 AdminHub. All rights reserved.
+            © 2024 Admin. All rights reserved.
           </p>
         </div>
       </motion.div>
